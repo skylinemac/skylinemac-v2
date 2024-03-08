@@ -1,14 +1,17 @@
 import './App.css';
-import Navbar from './navbar.js';
-import HomePage from './home.js';
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <HomePage/>
+    <div className='introButtonContainer'>
+      <button onClick={() => window.location.href = '/home'} className='introButtons'>Home</button>
+      <br />
+      <button onClick={() => window.location.href = '/past-tests'} className='introButtons'>Past Tests</button>
+      <br />
+      <button onClick={() => window.location.href = '/competition-format'} className='introButtons'>Competition Format</button>
+      <br />
+      <button onClick={() => window.location.href = '/about-us'} className='introButtons'>About Us</button>
     </div>
-  )
+  );
 }
 
 export default App;
