@@ -3,8 +3,10 @@ import Navbar from './navbar.js';
 
 function App() {
   return (
-    Navbar
-  );
+    <div>
+      <Navbar />
+    </div>
+  )
 }
 
 export default App;
