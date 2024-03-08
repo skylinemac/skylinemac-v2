@@ -4,11 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
-import HomePage from './home';
+import Overview from './overview';
 
 const router = createBrowserRouter([
     { path: '/', element: <App/>},
-    { path: '/home', element: <HomePage/>},
+    { path: '/overview', element: <Overview/>},
     { path: '/past-tests', component: App },
     { path: '/competition-format', component: App },
     { path: '/about-us', component: App },

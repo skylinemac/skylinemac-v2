@@ -1,5 +1,5 @@
 body {
-  background-color: aqua;
+  background-color: #003f22;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -43,13 +43,13 @@ code {
   align-items: center;
   flex-direction: column; 
   width: 100%;
-  background-color: beige;
+  background-color: #003f22;
   height: 100%;
 }
 
 .introButtons{
   position: relative;
-  background-color: green;
+  background-color: #595959;
   color: white;
   width: 60%;
   height: 150px;

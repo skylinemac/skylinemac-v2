@@ -2,7 +2,7 @@ import React from "react";
 import './index.css';
 import Navbar from "./navbar";
 
-function HomePage() {
+function Overview() {
     return (
         <div>
             <Navbar />
@@ -12,4 +12,4 @@ function HomePage() {
     );
 }
 
-export default HomePage;
+export default Overview;
