@@ -25,9 +25,14 @@ code {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
 }
 
-.navBarLinks{
+.navBarSpacing{
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 80%;
+}
+
+.navBarLinks{
+  color: white;
+  text-decoration: none;
 }
