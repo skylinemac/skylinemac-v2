@@ -1,5 +1,5 @@
 import './index.css';
-import logo from './ClubLogo.svg';
+import logo from './ClubLogo.png';
 
 const Navbar = () => {
     return (
