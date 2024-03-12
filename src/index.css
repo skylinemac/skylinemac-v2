@@ -18,7 +18,7 @@ code {
   justify-content: space-between;
   width: 100vw;
   position: relative;
-  background-color: #261a1a;
+  background-color: #eedbdb;
   padding: 10px;
 }
 
@@ -42,7 +42,7 @@ code {
 }
 
 .navBarLinks{
-  color: white;
+  color: black;
   font-size: larger;
   font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
