@@ -15,25 +15,36 @@ code {
 
 .navBar{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  justify-content: space-between;
+  width: 100vw;
   position: relative;
   background-color: #261a1a;
-  flex-direction: column;
   padding: 10px;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
 }
 
-.navBarSpacing{
-  display: flex;
+.navBarText{
+  display:flex;
+  width: 25vw;
   justify-content: space-between;
-  align-items: center;
-  width: 80%;
+  margin-right: 2%;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: right;
+}
+
+.navBarLogo {
+  display: flex;
+  left: 5%;
+  justify-content: left;
+  width: 30vw;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .navBarLinks{
   color: white;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
 }
 
